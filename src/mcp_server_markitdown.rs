@@ -54,6 +54,9 @@ impl zed::Extension for MarkitDownModelContextExtension {
             zed::npm_install_package(PACKAGE_NAME, version)?;
         }
 
+        // Set up environment variables
+        let env_vars = vec![];
+
         // Run the installed package binary directly
         Ok(Command {
             command: zed::node_binary_path()?,
@@ -64,7 +67,7 @@ impl zed::Extension for MarkitDownModelContextExtension {
                 .join("markitdown-mcp-npx")
                 .to_string_lossy()
                 .to_string()],
-            env: vec![],
+            env: env_vars,
         })
     }
 

@@ -1,6 +1,4 @@
 {
-  // MarkItDown MCP Server Configuration
-
   // NPM package version to use for markitdown-mcp-npx
   // Default: "latest"
   // Examples: "1.0.3", "latest", "^1.0.0"

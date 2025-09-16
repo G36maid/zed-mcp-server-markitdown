@@ -67,8 +67,7 @@ Access through Zed's settings or the Assistant configuration UI:
   "context_servers": {
     "mcp-server-markitdown": {
       "settings": {
-        "package_version": "latest",
-        "debug_mode": false
+        "package_version": "latest"
       }
     }
   }
@@ -76,7 +75,6 @@ Access through Zed's settings or the Assistant configuration UI:
 ```
 
 - **`package_version`**: Specify npm package version (default: "latest")
-- **`debug_mode`**: Enable detailed logging for troubleshooting (default: false)
 
 ### Prerequisites
 
