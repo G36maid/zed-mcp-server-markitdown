@@ -1,6 +1,13 @@
 [package]
-name = "zed-mcp-server-markitdown"
-version = "0.1.0"
-edition = "2024"
+name = "mcp-server-markitdown"
+version = "0.0.1"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+path = "src/mcp_server_markitdown.rs"
 
 [dependencies]
+zed_extension_api = "0.7.0"
+serde = { version = "1.0", features = ["derive"] }
+schemars = "0.8"
