@@ -22,7 +22,7 @@ SOFTWARE.
 
 ---
 
-This project is based on Microsoft's markitdown, markitdown-mcp, and markitdown-mcp-npx packages:
+This project is based on Microsoft's MarkItDown, markitdown-mcp, and markitdown-mcp-npx packages:
 - https://github.com/microsoft/markitdown
   Original work by Microsoft under the MIT License
 - https://github.com/xkiranj/markitdown-mcp-npx

@@ -1,8 +1,8 @@
-# MarkitDown MCP Server for Zed
+# MarkItDown MCP Server for Zed
 
-This extension integrates [MarkitDown](https://github.com/microsoft/markitdown) as a Model Context Protocol (MCP) Server for for Zed's Assistant.
+This extension integrates [MarkItDown](https://github.com/microsoft/markitdown) as a Model Context Protocol (MCP) Server for for Zed's Assistant.
 
-for upstream information, check [MarkitDown-MCP](https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp)
+for upstream information, check [MarkItDown-MCP](https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp)
 
 ## What This Extension Does
 
@@ -102,7 +102,7 @@ cargo build --release
 
 - **[Microsoft MarkItDown](https://github.com/microsoft/markitdown)** - The core conversion tool (Python)
 - **[MarkItDown MCP](https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp)** - Official MCP server
-- **[markitdown-mcp-npx](https://github.com/xkiranj/markitdown-mcp-npx)** - NPX wrapper used by this extension
+- **[markitdown-mcp-npx](https://www.npmjs.com/package/markitdown-mcp-npx)** - NPX wrapper used by this extension
 - **[Context7 MCP](https://github.com/akbxr/zed-mcp-server-context7)** - Similar Zed MCP extension example
 
 
