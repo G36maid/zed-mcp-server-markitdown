@@ -10,9 +10,7 @@ for upstream information, check [MarkitDown-MCP](https://github.com/microsoft/ma
 
 ### Supported File Types
 
-- **Single Tool**: `convert_to_markdown` handles all conversions
-- **URI Support**: Accepts `http:`, `https:`, `file:`, and `data:` URIs
-- **Streaming**: Efficient processing of large documents
+It exposes one tool: `convert_to_markdown(uri)`, where uri can be any `http:`, `https:`, `file:`, or `data:` URI.
 
 | Category | Formats | AI Use Cases |
 |----------|---------|-------------|
