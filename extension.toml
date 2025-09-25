@@ -3,7 +3,7 @@ name = "MarkItDown MCP Server"
 description = "MarkItDown MCP Server for Zed"
 version = "0.0.1"
 schema_version = 1
-authors = ["G36maid <G36maid@proton.me>"]
+authors = ["G36maid <G36_maid@proton.me>"]
 repository = "https://github.com/G36maid/zed-mcp-server-markitdown"
 
 [context_servers.mcp-server-markitdown]
